@@ -4,16 +4,23 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.food.ordering.system</groupId>
-        <artifactId>order-service</artifactId>
+        <artifactId>order-domain</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>order-messaging</artifactId>
+    <artifactId>order-application-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>order-messaging</name>
-    <description>order-messaging</description>
+    <name>order-application-service</name>
+    <description>order-application-service</description>
 
     <properties>
 
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.food.ordering.system</groupId>
+            <artifactId>order-domain-core</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

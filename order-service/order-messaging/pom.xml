@@ -7,13 +7,20 @@
         <artifactId>order-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>order-container</artifactId>
+    <artifactId>order-messaging</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>order-container</name>
-    <description>order-container</description>
+    <name>order-messaging</name>
+    <description>order-messaging</description>
 
     <properties>
 
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.food.ordering.system</groupId>
+            <artifactId>order-application-service</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
