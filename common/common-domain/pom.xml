@@ -3,23 +3,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
+		<artifactId>common</artifactId>
 		<groupId>com.food.ordering.system</groupId>
-		<artifactId>order-domain</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>order-domain-core</artifactId>
+
+	<artifactId>common-domain</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>order-domain-core</name>
-	<description>order-domain-core</description>
-
-	<properties>
-	</properties>
-
-	<dependencies>
-		<dependency>
-			<groupId>com.food.ordering.system</groupId>
-			<artifactId>common-domain</artifactId>
-		</dependency>
-	</dependencies>
+	<name>common-domain</name>
+	<description>common-domain</description>
 
 </project>
