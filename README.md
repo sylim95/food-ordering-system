@@ -3,3 +3,6 @@ Food ordering system application in Udemy course: Microservices: Clean Architect
 
 ### Architecture
 ![img.png](img.png)
+
+### Project Diagram
+![img_1.png](img_1.png)
