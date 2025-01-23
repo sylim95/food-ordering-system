@@ -87,7 +87,7 @@ public class OrderCreateHelper {
 
     private Order saveOrder(Order order) {
         Order orderResult = orderRepository.save(order);
-        if (orderResult != null) {
+        if (orderResult == null) {
             log.error("Could not save order!");
             throw new OrderDomainException("Could not save order!");
         }
